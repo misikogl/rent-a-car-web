@@ -1,4 +1,4 @@
-_IdeaS Rent a Car Web Sitesi Projesi_\n
+_IdeaS Rent a Car Web Sitesi Projesi_"\n"
 
 Proje Tanımı
 IdeaS Rent a Car, kullanıcıların çeşitli araçları inceleyebilecekleri ve kiralayabilecekleri bir web sitesidir. Site, araç seçenekleri, kiralama işlemleri ve iletişim bilgileri gibi temel işlevselliklere sahiptir. 
