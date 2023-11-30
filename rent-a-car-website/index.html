@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interv Rent a Car</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!--jQuery eklendi -->
+</head>
+
+<body>  
+<header>
+    <h1>&nbsp;&nbsp;IdeaS&nbsp;&nbsp;&nbsp;</h1>
+    <h1>&nbsp;&nbsp;&nbsp;Rent a Car<span class="copyright">©</span></h1>
+    <div id="liveClock" class="clock"></div>
+
+    <nav>
+        <ul>
+            <li><a href="#cars">Araçlar</a></li>
+            <li><a href="#rent">Araç Kirala</a></li>
+            <li><a href="#contact">İletişim</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="rent">
+    <div class="form-container">
+        <div class="booking-form">
+            <h3>Güvenli Sürüşler İçin Güvenilir Marka</h3>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="pickup-date">Alış Tarihi:</label>
+                        <input type="date" id="pickup-date" name="pickup-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pickup-time">Alış Saati:</label>
+                        <input type="time" id="pickup-time" name="pickup-time" required>
+                    </div>
+                    <div class="form-group2">
+                        <label for="takeup-date">Veriş Tarihi:</label>
+                        <input type="date" id="takeup-date" name="takeup-date" required>
+                    </div>
+                    <div class="form-group2">
+                        <label for="takeup-time">Veriş Saati:</label>
+                        <input type="time" id="takeup-time" name="takeup-time" required>
+                    </div>
+                </div>
+                <div class="rentform">
+                    <button type="submit">Araç Kirala</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="cars">
+    <div class="container">
+    <h1>Araçlarımız</h1>
+    <div class="car-grid">
+        <div class="car">
+            <img src="https://www.supercars.net/blog/wp-content/uploads/2020/11/2011-Mercedes-Benz-C63-AMG-Coupe-Black-004-1440.jpg" alt="Araç 1">
+            <h2>Mercedes C63 AMG</h2>
+            <p>2012</p>
+            <p>V8 Biturbo 480hp</p>
+        </div>
+        <div class="car">
+            <img src="https://lh6.ggpht.com/-p1NnjceOdMM/UV5MyDSfCHI/AAAAAAAAIw0/BOdzdn2WLn0/s800/Mercedes-12C1378_06_medium.jpg" alt="Araç 2">
+            <h2>Mercedes E63 AMG</h2>
+            <p>2014</p>
+            <p>V8 920hp</p>
+        </div>
+    </div>
+    </section>
+     
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/muhammed-isikoglu31/" target="_blank"><i class="fab fa-linkedin-in"></i> misikogl</a></li>
+            <li><i class="fas fa-phone-alt"></i> +90 542 436 8254</li>
+        </ul>
+    </section>
+    <section id="register">
+        <h2>Sizi Arayalım</h2>
+        <form id="registerForm">
+            
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="fa-phone-alt">telefon:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="adres">Adres:</label>
+            <input type="text" id="adres" name="adres" required>
+            
+            <button type="submit">Kayıt Ol</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

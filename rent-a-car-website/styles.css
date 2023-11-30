@@ -1,0 +1,365 @@
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('https://di-uploads-pod16.dealerinspire.com/mercedesbenzofhuntington/uploads/2018/08/c-class-gla-glc.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    background-color: #4b6c3a;
+    color: white;
+  }
+  
+header {
+    color: rgb(120, 109, 9);
+    text-align: left;
+    padding: 20px;
+}
+
+header h1 {
+  font-family: 'Dancing Script', cursive; /* El yazısı fontu */
+  font-size: 80px;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Lucida Handwriting', cursive; 
+  font-size: 5em;
+}
+
+h1 .copyright {
+  font-size: 0.35em;
+  vertical-align: super; 
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5em;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15;
+  display: block;
+  width: 100%; 
+  color: rgb(95, 20, 20, 0.7);; 
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; 
+}
+
+nav ul li {
+  padding: 0;
+  display: flex; 
+  font-family: 'Lucida Handwriting', cursive;
+  font-size: 25px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: rgb(120, 109, 9);
+  transition: color 0.4s;
+}
+
+nav ul li a:hover {
+  color: rgb(95, 20, 20);
+}
+
+
+/*form*/
+.form-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-height: 54.7vh; 
+}
+
+.booking-form form {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-row {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.form-group, .form-group2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px; 
+}
+
+.rentform {
+  display: flex;
+  flex-direction: column; 
+  margin-right: 40px; 
+  width: 97%; 
+}
+
+.booking-form h2 {
+  text-align: center;
+}
+
+.booking-form form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.booking-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.booking-form input[type="date"],
+.booking-form input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.booking-form button {
+  background-color: #2419a0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.booking-form button:hover {
+  background-color: #9a4343;
+}
+/*form*/
+
+
+/*car*/
+#cars {
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mercedes-amg-sl-class-2022-11-1635353911.jpg?crop=1xw:0.7501875468867217xh;center,top&resize=1200:*');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgb(120, 109, 9);
+  text-align: center;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.h1{
+  font-family: 'Lucida Handwriting', cursive; 
+  margin: 10;
+  padding: 40;
+}
+
+.car {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.car img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.car h2 {
+  margin-top: 10px;
+  color: #2419a0;
+}
+
+.car p {
+  font-size: 14px;
+  color: #554acb;
+}
+/*car*/
+
+
+/*contact*/
+#contact {
+  text-align: center;
+}
+
+#contact h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  margin-bottom: 15px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  font-size:large;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+#contact a {
+  color: #ffffff; 
+  text-decoration: underline;
+}
+
+#register {
+  background-color: rgb(120, 109, 9, 0);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: auto;
+}
+
+#register h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#registerForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#registerForm input[type="email"],
+#registerForm input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dddddd;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#registerForm input[type="text"]{
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#registerForm button {
+  width: 100%;
+  padding: 10px;
+  background-color: #205121;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#registerForm button:hover {
+  background-color: #2a6c2e;
+}
+/*contact*/
+
+
+.clock {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgb(120, 109, 9);
+  font-size: 18px;
+}
+
+
+/* responsive*/
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  nav {
+    justify-content: center;
+  }
+  header {
+    text-align: center;
+  } 
+  .clock {
+    right: 5px;
+    font-size: 12px;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .car h2, .car p {
+    font-size: smaller;
+}
+  .car-grid {
+    gap: 10px;
+}
+  .form-group, .form-group2 {
+    margin-right: 5px;
+}
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  nav ul li a {
+    padding: 10px;
+  }
+  .clock {
+    top: 5px;
+    right: 5px;
+    font-size: 8px; 
+  }
+  .main-container{
+    font-size: 1.2em;
+  }
+}
+/* responsive*/
